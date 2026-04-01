@@ -76,17 +76,7 @@ We welcome contributions! Please refer to the following documents before submitt
 
 ## Legal
 
-This project is distributed under a multi-license structure because it incorporates elements from Valve's Source SDK.
+JBMod is a registered trademark of Facepunch Studios Ltd.
 
-### Original Contributions
-All original source code and assets created by The JBMod Authors are licensed under the **Apache License, Version 2.0**. You may obtain a copy of the license in the `LICENSE_APACHE` file included in this repository or at http://www.apache.org/licenses/LICENSE-2.0.
-
-Original contributions will be clearly marked with a permissive license header.
-
-### Source SDK
-This project contains code and/or headers derived from Valve's Source SDK. These specific files remain subject to the **Source 1 SDK License**.  
-
-The Source SDK components are restricted to use solely in connection with Valve products. You can find the full text of Valve's license in the `LICENSE` file included in this repository or at https://github.com/ValveSoftware/source-sdk-2013/blob/master/LICENSE.
-
-### Important Notice for Redistributors
-While the original code in this repository is provided under the permissive Apache 2.0 terms, any compiled binaries or derivative works that link against the Source SDK are legally bound by the restrictions of the Source 1 SDK License. 
+The s&box engine source code is licensed under the MIT License.  
+Certain native binaries in game/bin are not covered by the MIT license. These binaries are distributed under the s&box EULA. You must agree to the terms of the EULA to use them.

@@ -1,45 +1,16 @@
-buildallprojects text
-vpc binary
+# Auto detect text files
+* text=auto
 
-*.sh text
-*.bat text
-*.txt text
-*.c text
-*.h text
-*.H text
-*.cc text
-*.cpp text
-*.vpc text
-*.vgc text
-*.nut text
-*.awk text
-*.pl text
-*.py text
-*.xcconfig text
-*.vcd text
-*.vbsp text
-*.proto text
-*.inc text
-*.fxc text
-*.vsh text
-*.lst text
-*.mm text
-*.cfg text
-*.res text
-*.rc text
-*.def text
-*.vmt text
-*.inl text
-*.asm text
+# Anything under game (content) force crlf for consistent content hashes
+game/** text=auto eol=crlf
+# Except c# files, auto that
+game/**/*.cs text=auto
 
-.gitignore text
-README.md text
-CONTRIBUTING text
-LICENSE text
-
-*.exe binary
-*.dll binary
-protoc binary
-ccache binary
-
-*_english.txt binary
+#
+# GitHub linguist overrides (https://github.com/github-linguist/linguist/blob/main/docs/overrides.md)
+# Lets GitHub know the proper languages, what code is generated, third party, etc. for better stats/diffs
+#
+*.h linguist-language=C++
+*.shader linguist-language=HLSL
+*.fxc linguist-language=HLSL
+src/thirdparty/* linguist-vendored
